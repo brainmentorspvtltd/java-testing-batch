@@ -1,0 +1,85 @@
+1. Software Design Principles and Approaches
+a) S O L I D
+S - SRP - Single Responsibility Principle
+
+O - Open Close Principle
+
+L - Liskov Substitution Principle
+
+I - Interface Segregation Principle
+
+D- DRY (Don’t Repeat YourSelf)
+
+As a Coder, Your Class Name must be a Noun.
+Employee, Customer, Account , Loan
+class name must be start with Capital Letter and if it is 2 Word Name
+CashCustomer
+
+Function name must be a verb
+checkLogin()
+testLogin()
+function name must be start with a small letter.
+
+Variable Name must be follow the same rule as a function.
+
+Constant name must be all Caps.
+final double PI = 3.14;
+
+
+Application —> Divide it into Modules.
+Modules is for us is Packages.
+What is Package 
+Package in a simple terms a folder.
+A Package is a collection of sub packages. and It also has classes.
+We Group the similar nature classes in a same package
+e.g admin package hold the classes related to the admin things.
+Naming Convention use for packages.
+
+Comments
+// single line comment
+/* 
+Multi Line comments
+*/
+
+Application Design Involve
+1. KISS (Keep In the Code Stupid & Simple) Principle 
+2. High Cohesion (SRP) A One Class will do a One thing e.g
+3. Loosely Coupled Application e.g  Less Coupling
+4. Unit Testing e.g addition
+Pick some Library from Internet
+jUnit , testng
+Library - JAR (Java Archive)
+MVN (Maven) - Collection of Jars
+ 
+5. Data Abstraction
+6. Follow Design Patterns - 
+In Software Development , there are some common known problems and there are some best solutions for common known problems
+and this thing is called Design Patterns
+Design Pattern is Now Become a Language between developers/ Automation Testing.
+Make Code readable
+
+ 
+a) Architectural Patterns (MVC)
+M - Model (Logic Layer)
+V- View (Presentation Layer) Input / Output
+C - Controller (Talk B.w View and Model)
+
+b) Coding Patterns (Singleton)
+Create one object and rest of the classes is sharing the same object.
+Excel Reader —> Your all Test Cases is written in Excel and You want to read the Excel and Fire the Test Cases.
+My Singleton class will read the excel and fill the data in Array.
+And share the object to all the testers.
+
+7. Modularity - PACKAGES
+8. Comments
+9. Documentation
+10. MVP Must Have Things , And Don’t Pick Nice to Have thing.
+11. The GOD Object
+So Common Features for all the child classes , we will put it in a root classes
+that is a generic class for an application.
+And in this generic class we have the common features in it.
+In Java We Have a GOD Class called Object class.
+
+
+
+
